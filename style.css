@@ -1,0 +1,17 @@
+.container{
+    dispaly:flex;
+    justify-content: center;
+}
+.projects.grid{
+    display:grid;
+        grid-template-columns: 1fr;
+    }
+@media(min-width:600px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+img{
+    max-width:100% ;
+   height:auto;
+}
